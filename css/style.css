@@ -1,0 +1,192 @@
+.facade{
+  font-family: 'FacadeGX';/*on réutilise le nom choisi au sein du fichier font_liste.css*/
+  font-variation-settings: "wght" 900, "ctst" 300 ;
+}
+
+.ouvrieres{
+  font-family: 'OuvrièresGX';
+  font-variation-settings: "FRMT" 900, "wght" 500 ;
+}
+
+
+.fungal{
+  font-family: 'FungalGX';
+}
+
+.movement{
+  font-family: 'MovementV';
+}
+  
+.recursive{
+  font-family: 'recursive';
+}
+
+h2{
+  color: chartreuse;
+  width: 300px;
+  height: 300px;
+
+}
+
+#premier{
+  position: relative;
+  left: 10cm;
+  top: 3cm;
+  color: rgb(195, 86, 46);
+  font-size: 50px;
+  transform: rotate(10deg);
+  z-index: -1;
+  font-variation-settings: "wght" 400, "slnt" -10 ;
+  animation-name: recursive; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 2s;/*faire démarer une animation un peu en retard*/
+
+
+
+}
+
+#deuxieme{
+  position: relative;
+  left: 1cm;
+  top: 4cm;
+  color: rgb(46, 49, 195);
+  transform: rotate(-10deg);
+  z-index: -1;
+  font-variation-settings: "SCAN" 100, "BLED" 0;
+  font-size: 200px;
+  opacity: 0.5;
+  mix-blend-mode: multiply;
+  animation-name: sixtyhour; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+
+
+}
+
+@keyframes sixtyhour { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+color: chocolate;
+font-size: 100px;
+font-variation-settings: "SCAN" 30, "BLED" 0;
+}
+
+50%{ /*ici on renseigne la valeur de départ*/
+  color: rgb(30, 210, 120);
+  }
+
+100%{/*ici on renseigne la valeur de fin*/
+  color: rgb(180, 36, 13);
+  font-size: 400px;
+  font-variation-settings: "SCAN" 100, "BLED" 0;
+}
+}
+
+@keyframes recursive { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+color: chocolate;
+font-size: 20px;
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+  color: rgb(180, 36, 13);
+  font-size: 100px;
+}
+}
+
+#troisieme:hover{
+  color: brown;
+  font-variation-settings: "wght" 1000, "slnt" -10 ;
+  animation-name: clic; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+
+
+}
+  
+  
+  #troisieme{
+    position: relative;
+    left: 15cm;
+    top: 15cm;
+    color: rgb(46, 195, 153);
+    font-size: 50px;
+    transform: rotate(0deg);
+    z-index: -1;
+    font-variation-settings: "wght" 400, "slnt" -10 ;
+    transition-duration: 0.5s;
+
+
+
+}
+
+@keyframes clic { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+color: rgb(30, 54, 210);
+}
+
+50%{ /*ici on renseigne la valeur de départ*/
+  color: rgb(210, 195, 30);
+  }
+
+100%{/*ici on renseigne la valeur de fin*/
+  color: rgb(180, 91, 13);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bricolage{
+  font-family: 'BricolageGrotesque';
+}
+
+.handjet{
+  font-family: 'handjet';
+}
+
+.sixtyhour{
+  font-family: 'sixtyhour';
+}
+
+.tiny{
+  font-family: 'tiny';
+}
+ 
+
+.mixal{
+  font-family: 'mixal';
+}
+  
+ 
+  
+  
+  
+  
